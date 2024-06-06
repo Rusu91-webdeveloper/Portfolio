@@ -1,5 +1,4 @@
 "use client";
-
 import Contact from "@/components/Contact";
 import { BackgroundBeams } from "@/components/ui/background-beams";
 

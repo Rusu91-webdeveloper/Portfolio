@@ -1,7 +1,6 @@
-import { BackgroundBoxesDemo } from "@/components/BackgroundBoxesDemo";
 import RecentProjects from "@/components/RecentProjects";
 import { BackgroundBeams } from "@/components/ui/background-beams";
-import { Boxes } from "@/components/ui/background-boxes";
+
 import React from "react";
 
 function page() {
