@@ -26,11 +26,11 @@ const Contact = () => {
       <div className="flex flex-col md:grid md:grid-cols-2 md:gap-4 gap-8 mt-16 lg:mt-60">
         <div>
           <h3 className="font-bold mb-8 text-gray-100 tracking-wider text-xl">
-            LET'S CONNECT
+            LET`&apos`S CONNECT
           </h3>
           <p className="text-gray-300 tracking-tight">
-            I'm currently looking for new opportunities.Feel free to reach by
-            email or by using the contact form
+            I`&apos`m currently looking for new opportunities.Feel free to reach
+            by email or by using the contact form
           </p>
           <div
             className="text-left mt-6"

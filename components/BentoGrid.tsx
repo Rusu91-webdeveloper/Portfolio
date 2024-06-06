@@ -2,6 +2,7 @@ import { cn } from "@/utils/cn";
 import React from "react";
 import { BentoGrid, BentoGridItem } from "@/components/ui/bento-grid";
 import { skills } from "@/lib/data";
+import Image from "next/image";
 
 export function BentoGridThirdDemo() {
   return (
@@ -13,7 +14,7 @@ export function BentoGridThirdDemo() {
             title={skill.title}
             description={skill.description}
             header={
-              <img
+              <Image
                 className="rounded-2xl"
                 alt={skill.title}
                 src={skill.images}
