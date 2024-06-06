@@ -1,6 +1,5 @@
 import Experience from "@/components/Experience";
 import { BackgroundBeams } from "@/components/ui/background-beams";
-import { Boxes } from "@/components/ui/background-boxes";
 
 function page() {
   return (

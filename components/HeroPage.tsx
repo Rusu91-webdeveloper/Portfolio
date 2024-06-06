@@ -39,7 +39,7 @@ const HeroPage = () => {
 
     const timer = setTimeout(handleTyping, typingSpeed);
     return () => clearTimeout(timer);
-  }, [displayedText, isDeleting, loopNum, typingSpeed, texts]);
+  }, []);
 
   return (
     <div className="flex flex-col max-h[100vh] min-h-screen huge:py-20">
