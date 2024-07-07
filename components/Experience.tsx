@@ -1,6 +1,6 @@
 const Experience = () => {
   return (
-    <div className="flex flex-col   w-full  mx-auto  px2- text-left">
+    <div className="flex flex-col   w-full  mx-auto  px-4 text-left">
       <div className="text-slate-300 text-sm md:text-lg mb-8 flex flex-col place-items-center mdLg:place-items-start mdLg:flex-row mdLg:justify-between md:mt-[5rem] font-regular mt-10 flex-grow">
         <div>
           <h2 className=" text-purple mb-8 text-4xl md:mb-16 font-bold mt-6">
@@ -8,7 +8,7 @@ const Experience = () => {
           </h2>
         </div>
         <div className="flex w-full mdLg:w-[80%] tracking-tight leading-6 lg:leading-10 lg:tracking-wider flex-col huge:w-[75%] ">
-          <section className="mb-8  hover:bg-gradient-to-r from-pink-800 to-violet-900 p-3 text-base text-slate-200 hover:from-pink-700 hover:to-violet-800 hover:cursor-pointer p-8 rounded-3xl">
+          <section className="mb-8  hover:bg-gradient-to-r from-pink-800 to-violet-900 p-6 sm:text-base text-slate-200 hover:from-pink-700 hover:to-violet-800 hover:cursor-pointer  rounded-3xl text-sm">
             <h2 className="font-extrabold text-2xl mb-4">
               Education and Training
             </h2>
@@ -33,7 +33,7 @@ const Experience = () => {
               creating high-quality digital experiences.
             </p>
           </section>
-          <section className="mb-8  hover:bg-gradient-to-r from-pink-800 to-violet-900 p-3 text-base text-slate-200 hover:from-pink-700 hover:to-violet-800 hover:cursor-pointer p-8 rounded-3xl">
+          <section className="mb-8  hover:bg-gradient-to-r from-pink-800 to-violet-900  sm:text-base text-slate-200 hover:from-pink-700 hover:to-violet-800 hover:cursor-pointer p-8 rounded-3xl text-sm">
             <h2 className="font-extrabold text-2xl mb-4">
               Skills and Proficiencies
             </h2>

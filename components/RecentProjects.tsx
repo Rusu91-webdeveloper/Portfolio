@@ -5,16 +5,16 @@ import Image from "next/image";
 
 const RecentProjects = () => {
   return (
-    <div className="py-20">
-      <h1 className="heading mb-10 lg:mb-20">
+    <div className="lg:py-20 py-10">
+      <h1 className="heading mb-10 md:mb-24 lg:mb-28 px-4">
         A small selection of{" "}
         <span className="text-purple font-extrabold">recent projects</span>
       </h1>
 
-      <div className="flex flex-wrap flex-col  items-center justify-center p-4 gap-16 mt-10 lg:grid lg:grid-cols-2 ">
+      <div className="flex flex-wrap flex-col  items-center justify-center p-2 gap-2 md:gap-20 lg:gap-16  lg:mt-10 lg:grid lg:grid-cols-2 ">
         {projects.map((item) => (
           <div
-            className="lg:min-h-[24.5rem] h-[20rem] flex items-center justify-center max-w-full mb-16 "
+            className="lg:min-h-[24.5rem] flex items-center justify-center max-w-full mb-24 "
             key={item.id}
           >
             <PinContainer
@@ -38,15 +38,15 @@ const RecentProjects = () => {
                 />
               </div>
 
-              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
+              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 ">
                 {item.title}
               </h1>
 
               <p
-                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2 "
                 style={{
                   color: "#BEC1DD",
-                  margin: "1vh 0",
+                  margin: "2vh 0",
                 }}
               >
                 {item.des}
