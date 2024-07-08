@@ -4,7 +4,7 @@ import { Typography } from "@material-tailwind/react";
 
 const Footer = () => {
   return (
-    <footer className="text-slate-300 gap-y-6 gap-x-12 border-t border-gray-400 py-12 text-center mt-10">
+    <footer className="text-slate-300 gap-y-6 gap-x-12 border-t border-gray-400 py-12 text-center mt-10 px-4">
       <Typography
         color="blue-gray"
         className="font-normal"
