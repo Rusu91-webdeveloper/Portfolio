@@ -8,7 +8,7 @@ const Experience = () => {
           </h2>
         </div>
         <div className="flex w-full mdLg:w-[80%] tracking-tight leading-6 lg:leading-10 lg:tracking-wider flex-col huge:w-[75%] ">
-          <section className="mb-8  hover:bg-gradient-to-r from-pink-800 to-violet-900 p-6 sm:text-base text-slate-200 hover:from-pink-700 hover:to-violet-800 hover:cursor-pointer  rounded-3xl text-sm">
+          <section className="mb-8  hover:bg-gradient-to-r from-pink-800 to-violet-900 p-6 sm:text-base text-slate-200 hover:from-pink-700 hover:to-violet-800 hover:cursor-pointer  rounded-3xl text-sm md:text-lg">
             <h2 className="font-extrabold text-2xl mb-4">
               Education and Training
             </h2>
@@ -33,15 +33,15 @@ const Experience = () => {
               creating high-quality digital experiences.
             </p>
           </section>
-          <section className="mb-8  hover:bg-gradient-to-r from-pink-800 to-violet-900  sm:text-base text-slate-200 hover:from-pink-700 hover:to-violet-800 hover:cursor-pointer p-8 rounded-3xl text-sm">
+          <section className="mb-8  hover:bg-gradient-to-r from-pink-800 to-violet-900  sm:text-base text-slate-200 hover:from-pink-700 hover:to-violet-800 hover:cursor-pointer p-8 rounded-3xl text-sm md:text-lg">
             <h2 className="font-extrabold text-2xl mb-4">
               Skills and Proficiencies
             </h2>
             <ul className="list-disc pl-6 mb-2">
               <li>Frontend Development (HTML, CSS, JavaScript)</li>
-              <li>React.js, Vue.js, Angular</li>
+              <li>React.js,Next.js</li>
               <li>Backend Development (Node.js, Express)</li>
-              <li>Database Management (MongoDB, MySQL)</li>
+              <li>Database Management (MongoDB,SQL,PostGresSQL)</li>
               <li>Responsive Web Design</li>
               <li>Version Control (Git, GitHub)</li>
             </ul>
