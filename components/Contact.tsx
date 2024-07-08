@@ -42,7 +42,7 @@ const Contact = () => {
           >
             <Link
               className="cursor-pointer"
-              href="https://www.linkedin.com/in/emanuel-rusu-735517309/"
+              href="https://linkedin.com/in/rusu-emanuel-marius"
               target="_blank"
               rel="noopener noreferrer"
             >
