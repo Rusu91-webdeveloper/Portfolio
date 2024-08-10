@@ -21,7 +21,7 @@ const Contact = () => {
   return (
     <div className="md:mt-20 mt-10 max-w-7xl min-h-[80vh] px-10 ">
       <h2 className="text-3xl lg:text-6xl text-white text-center mb-10 lg:mb-20 tracking-tight font-extrabold mt-10">
-        Hire <span className="text-purple">Me!</span>
+        Contact <span className="text-purple">Me!</span>
       </h2>
       <div className="flex flex-col md:grid md:grid-cols-2 md:gap-4 gap-8 mt-16 lg:mt-60">
         <div>
