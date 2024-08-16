@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 // import ContactButton from "@/components/ContactButton";
 import { BentoGridThirdDemo } from "./BentoGrid";
-import MainSkills from "@/components/MainSkills";
+// import MainSkills from "@/components/MainSkills";
 
 const HeroPage = () => {
   const texts = [
@@ -73,7 +73,7 @@ const HeroPage = () => {
         </div>
       </div>
       <BentoGridThirdDemo />
-      <MainSkills />
+      {/* <MainSkills /> */}
     </div>
   );
 };

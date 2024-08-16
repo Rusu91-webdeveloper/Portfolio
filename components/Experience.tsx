@@ -41,7 +41,7 @@ const Experience = () => {
               <li>Frontend Development (HTML, CSS, JavaScript)</li>
               <li>React.js,Next.js</li>
               <li>Backend Development (Node.js, Express)</li>
-              <li>Database Management (MongoDB,SQL,PostGresSQL)</li>
+              <li>Database Management (MongoDB,SQL)</li>
               <li>Responsive Web Design</li>
               <li>Version Control (Git, GitHub)</li>
             </ul>
