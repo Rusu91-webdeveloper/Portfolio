@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Rusu Emanuel's Portfolio 🌟
 
-## Getting Started
+Welcome to my portfolio! Here you'll find a showcase of my projects, my experience, and ways to get in touch with me.
 
-First, run the development server:
+## Projects
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Gym-1-One
+![Gym-1-One](./project1.png)
+This is my first project created only with HTML and SCSS. The main focus was to write clean code and get used to SCSS.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Tech Used:** HTML, SCSS
+- **Demo:** [View Project](https://rusu91-webdeveloper.github.io/Gym-1-One/)
+- **Icons:**
+  - ![HTML5](https://img.icons8.com/color/24/000000/html-5.png) 
+  - ![CSS3](https://img.icons8.com/color/24/000000/css3.png)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Serenity-Furnish
+![Serenity-Furnish](./project2.png)
+Serenity-Furnish is a React web app built with React Query, Redux Toolkit, and Daisy UI. This project showcases my skills in modern SPA development, integrating efficient data handling and responsive design.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Tech Used:** React, React Query, Redux Toolkit, Daisy UI
+- **Demo:** [View Project](https://serenity-furnish.vercel.app/)
+- **Icons:**
+  - ![React](https://img.icons8.com/color/24/000000/react-native.png) 
+  - ![API](https://img.icons8.com/ios/24/api.png)
 
-## Learn More
+### MyProperty
+![MyProperty](./project3.png)
+This is my first full-stack application built with Next.js and MongoDB. It's a dynamic platform where users can easily browse or promote rental properties, from cozy apartments to luxurious houses.
 
-To learn more about Next.js, take a look at the following resources:
+- **Tech Used:** Next.js, MongoDB, Node.js
+- **Demo:** [View Project](https://my-property-eight.vercel.app/)
+- **Icons:**
+  - ![Next.js](https://img.icons8.com/ios/24/nextjs.png) 
+  - ![MongoDB](https://img.icons8.com/ios/24/mongodb.png)
+  - ![Node.js](https://img.icons8.com/ios/24/nodejs.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Golden-Era-Anime
+![Golden-Era-Anime](./project4.png)
+This is a simple single-page application built with Next.js and TypeScript. The site features fast server-side rendering and interactive animations.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Tech Used:** Next.js, TypeScript
+- **Demo:** [View Project](https://golden-era-anime-git-main-rusu91-webdevelopers-projects.vercel.app/)
+- **Icons:**
+  - ![Next.js](https://img.icons8.com/ios/24/nextjs.png)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for visiting my portfolio! Looking forward to hearing from you. 😊
