@@ -11,7 +11,7 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "grid   grid-cols-3 md:grid-cols-5 gap-4  lg:grid-cols-10 max-w-7xl mx-auto huge:mb-20",
+        "grid   grid-cols-5 md:grid-cols-5  s:gap-4  lg:grid-cols-10 max-w-7xl mx-auto huge:mb-20",
         className
       )}
     >
@@ -44,7 +44,7 @@ export const BentoGridItem = ({
       <BackgroundGradient>
         {header}
         <div className="group-hover/bento:translate-x-2 transition duration-200">
-          <div className="font-sans font-bold text-neutral-600 dark:text-neutral-200 mb-2 mt-2 text-sm text-center">
+          <div className="hidden md:flex justify-center font-sans font-bold text-neutral-600 dark:text-neutral-200 mb-2 mt-2 md:text-sm text-center text-[10px]">
             {title}
           </div>
         </div>

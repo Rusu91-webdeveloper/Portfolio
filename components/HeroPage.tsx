@@ -42,7 +42,7 @@ const HeroPage = () => {
   }, [displayedText, isDeleting, loopNum, typingSpeed, texts]);
 
   return (
-    <div className="flex flex-col max-h[100vh] s:min-h-screen huge:py-20">
+    <div className="flex flex-col max-h[100vh]  huge:py-10">
       <div className="pt-28 mdLg:flex-row mdLg:flex     mdLg:justify-between mdLg:px-4   mdLg:mb-[1rem]   flex w-full flex-col items-center p-4 ">
         <div className=" mdLg:w-[60%] mdLg:text-left w-[100%] text-center tracking-widest text-slate-300">
           <h1 className="mdLg:text-4xl mb-6 inline-block bg-gradient-to-r from-pink-800 to-violet-900 bg-clip-text text-3xl  font-bold text-transparent lg:text-6xl ">
@@ -64,8 +64,8 @@ const HeroPage = () => {
         </div>
         <div>
           <Image
-            className="rounded-full hidden s:block"
-            src="/main-avtar.png"
+            className="rounded-full"
+            src="/resume-photo.jpg"
             alt="avatar"
             width={200}
             height={200}

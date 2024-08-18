@@ -6,8 +6,8 @@ import Image from "next/image";
 
 export function BentoGridThirdDemo() {
   return (
-    <div className="hidden s:flex flex-col justify-center items-center mt-4 mb-4 lg:mt-40 px-4">
-      <h2 className="text-gray-200 text-2xl lg:text-3xl mb-8 font-extrabold md:text-4xl text-center md:mt-14">
+    <div className=" flex-col justify-center items-center mt-8 mb-4 lg:mt-20 px-4">
+      <h2 className="text-gray-200 text-2xl lg:text-3xl mb-8 font-extrabold md:text-4xl text-center ">
         MAIN <span className="text-purple">SKILLS</span>
       </h2>
       <BentoGrid className="max-w-7xl mx-auto">
@@ -18,7 +18,7 @@ export function BentoGridThirdDemo() {
             description={skill.description}
             header={
               <Image
-                className="rounded-3xl"
+                className="rounded-2xl"
                 alt={skill.title}
                 src={skill.images}
                 width={80}

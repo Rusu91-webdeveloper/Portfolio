@@ -6,12 +6,12 @@ import Image from "next/image";
 const RecentProjects = () => {
   return (
     <div className="lg:py-20 py-10 lg:px-20">
-      <h1 className="heading  md:mb-24 lg:mb-44 px-4  s:mb-24 mb-4">
+      <h1 className="heading   md:mb-40 lg:mb-48 Lg:mb-48 px-4  s:mb-32 mb-4">
         A small selection of{" "}
         <span className="text-purple font-extrabold ">recent projects</span>
       </h1>
 
-      <div className="flex flex-wrap flex-col  items-center justify-center p-2 md:gap-32  lg:gap-44   lg:mt-10 lg:grid lg:grid-cols-2 s:gap-40 ">
+      <div className="flex flex-wrap flex-col  items-center justify-center p-2 md:gap-46  lg:gap-44   lg:mt-10 Lg:gap-48 mdLg:gap-48  lg:grid lg:grid-cols-2 s:gap-52 ">
         {projects.map((item) => (
           <div
             className="lg:min-h-[24.5rem] flex items-center justify-center max-w-full mb-24"
