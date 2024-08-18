@@ -5,7 +5,7 @@ Welcome to my portfolio! Here you'll find a showcase of my projects, my experien
 ## Projects
 
 ### Gym-1-One
-![Gym-1-One](./project1.png)
+
 This is my first project created only with HTML and SCSS. The main focus was to write clean code and get used to SCSS.
 
 - **Tech Used:** HTML, SCSS
@@ -13,7 +13,7 @@ This is my first project created only with HTML and SCSS. The main focus was to 
 
 
 ### Serenity-Furnish
-![Serenity-Furnish](./project2.png)
+
 Serenity-Furnish is a React web app built with React Query, Redux Toolkit, and Daisy UI. This project showcases my skills in modern SPA development, integrating efficient data handling and responsive design.
 
 - **Tech Used:** React, React Query, Redux Toolkit, Daisy UI
@@ -22,7 +22,7 @@ Serenity-Furnish is a React web app built with React Query, Redux Toolkit, and D
 
 
 ### MyProperty
-![MyProperty](./project3.png)
+
 This is my first full-stack application built with Next.js and MongoDB. It's a dynamic platform where users can easily browse or promote rental properties, from cozy apartments to luxurious houses.
 
 - **Tech Used:** Next.js, MongoDB, Node.js
@@ -30,7 +30,7 @@ This is my first full-stack application built with Next.js and MongoDB. It's a d
 
 
 ### Golden-Era-Anime
-![Golden-Era-Anime](./project4.png)
+
 This is a simple single-page application built with Next.js and TypeScript. The site features fast server-side rendering and interactive animations.
 
 - **Tech Used:** Next.js, TypeScript
