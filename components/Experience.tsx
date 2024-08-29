@@ -1,55 +1,68 @@
 const Experience = () => {
   return (
-    <div className="flex flex-col   w-full  mx-auto  px-4 text-left">
-      <div className="text-slate-300 text-sm md:text-lg mb-8 flex flex-col place-items-center mdLg:place-items-start mdLg:flex-row mdLg:justify-between md:mt-[5rem] font-regular mt-10 flex-grow">
+    <div className="flex flex-col w-full mx-auto px-4 text-left">
+      <div className="text-slate-300 text-sm md:text-lg mb-8 flex flex-col items-center md:items-start md:flex-row md:justify-between mt-10">
         <div>
-          <h2 className=" text-purple mb-8 text-4xl md:mb-16 font-bold mt-6">
+          <h2 className="text-purple text-3xl sm:text-4xl font-bold mt-4 sm:mt-6 mb-6 sm:mb-8">
             Experience
           </h2>
         </div>
-        <div className="flex w-full mdLg:w-[80%] tracking-tight leading-6 lg:leading-10 lg:tracking-wider flex-col huge:w-[75%] ">
-          <section className="mb-8  hover:bg-gradient-to-r from-pink-800 to-violet-900 p-6 sm:text-base text-slate-200 hover:from-pink-700 hover:to-violet-800 hover:cursor-pointer  rounded-3xl text-sm md:text-lg">
-            <h2 className="font-extrabold text-2xl mb-4">
+        <div className="flex w-full md:w-[80%] tracking-tight leading-5 sm:leading-6 md:leading-7 flex-col">
+          <section className="mb-6 p-4 sm:p-6 text-slate-300 rounded-lg sm:rounded-xl text-sm sm:text-base bg-gradient-to-r from-[#72369A] to-purple-800">
+            <h2 className="font-extrabold text-lg sm:text-xl mb-3 text-purple-200">
               Education and Training
             </h2>
-            <div className="font-bold mb-2 text-sm">2023-2024 DCI COURSE</div>
+            <div className="font-bold mb-2 text-sm sm:text-md text-black">
+              2023-2024 DIGITAL CAREER INSTITUTE
+            </div>
             <p className="mb-2">
-              During this period, I have been enrolled in the comprehensive{" "}
-              <span className="text-xl">WEB Development</span> course offered by{" "}
-              <span className="text-xl">DCI</span>. This rigorous program has
-              provided me with a strong foundation in both front-end and
-              back-end development, covering essential technologies. In addition
-              to my formal education, I have pursued numerous certifications on
-              Udemy. These courses have allowed me to delve deeper into specific
-              areas of interest, further enhancing my skills and keeping me
-              abreast of the latest trends and tools in web development.
+              Enrolled in a{" "}
+              <span className="text-purple-200 font-bold">
+                comprehensive WEB Development
+              </span>{" "}
+              course at <span className="text-purple-200 font-bold">DCI</span>,
+              gaining a strong foundation in both front-end and back-end
+              technologies. This program included{" "}
+              <span className="text-purple-200 font-bold">
+                hands-on projects
+              </span>{" "}
+              that honed my skills in building dynamic and responsive web
+              applications.
             </p>
             <p className="mb-2">
-              My portfolio is a testament to my growth and capabilities as a web
-              developer. It showcases a variety of projects that highlight my
-              ability to build responsive, user-friendly websites and
-              applications. Each project reflects the practical application of
-              the skills I have acquired and demonstrates my commitment to
-              creating high-quality digital experiences.
+              Additionally, I completed several{" "}
+              <span className="text-purple-200 font-bold">
+                advanced certifications
+              </span>{" "}
+              on Udemy, focusing on modern JavaScript frameworks, database
+              management, and cloud deployment, ensuring I stay current with
+              industry trends.
+            </p>
+            <p className="mb-2">
+              My <span className="text-purple-200 font-bold">portfolio</span>{" "}
+              highlights projects that demonstrate my ability to create
+              scalable, user-friendly websites and applications, reflecting my
+              dedication to quality and attention to detail.
             </p>
           </section>
-          <section className="mb-8  hover:bg-gradient-to-r from-pink-800 to-violet-900  sm:text-base text-slate-200 hover:from-pink-700 hover:to-violet-800 hover:cursor-pointer p-8 rounded-3xl text-sm md:text-lg">
-            <h2 className="font-extrabold text-2xl mb-4">
-              Skills and Proficiencies
+
+          <section className="mb-4 p-4 sm:p-5 text-slate-300 rounded-xl sm:rounded-2xl text-sm sm:text-base bg-gradient-to-r from-[rgb(114,54,154)] to-purple-800">
+            <h2 className="font-extrabold text-xl sm:text-2xl mb-3 text-purple">
+              Key Skills
             </h2>
-            <ul className="list-disc pl-6 mb-2">
+            <ul className="list-disc pl-5 mb-2 space-y-1">
               <li>Frontend Development (HTML, CSS, JavaScript)</li>
-              <li>React.js,Next.js</li>
+              <li>React.js, Next.js</li>
               <li>Backend Development (Node.js, Express)</li>
-              <li>Database Management (MongoDB,SQL)</li>
+              <li>Database Management (MongoDB, SQL)</li>
               <li>Responsive Web Design</li>
               <li>Version Control (Git, GitHub)</li>
             </ul>
             <p className="mb-2">
-              I am proficient in a wide array of technologies and frameworks,
-              enabling me to develop robust and scalable web applications. My
-              continuous learning and adaptation to new technologies allow me to
-              stay ahead in the rapidly evolving field of web development.
+              My skill set covers a broad spectrum of technologies, ensuring I
+              can handle both the front-end and back-end of web development. I
+              specialize in creating responsive, high-performance web
+              applications that meet modern standards.
             </p>
           </section>
         </div>
