@@ -103,16 +103,26 @@ function RecentProjects() {
               {project.iconLists.map((icon, idx) => (
                 <div
                   key={idx}
-                  className="transform hover:scale-110 transition-transform duration-200 ease-in-out"
-                >
+                  className="transform hover:scale-110 transition-transform duration-200 ease-in-out">
                   {icon}
                 </div>
               ))}
             </div>
             <div className="mt-8 flex justify-center">
-              <Link href={project.href} target="_blank" passHref>
+              <Link
+                href={project.href}
+                target="_blank"
+                passHref>
                 <button className="px-8 py-3 bg-gradient-to-r from-white to-[#6B3390] text-black font-semibold rounded-full shadow-lg hover:from-[#6B3390] hover:to-black transition-all duration-300 transform hover:scale-105 hover:shadow-2xl">
                   Visit
+                </button>
+              </Link>
+              <Link
+                href={project.gitHub}
+                target="_blank"
+                passHref>
+                <button className=" ml-8 px-8 py-3 bg-gradient-to-r from-white to-[#6B3390] text-black font-semibold rounded-full shadow-lg hover:from-[#6B3390] hover:to-black transition-all duration-300 transform hover:scale-105 hover:shadow-2xl">
+                  GitHub
                 </button>
               </Link>
             </div>
@@ -126,7 +136,7 @@ function RecentProjects() {
 
   return (
     <div className="w-full h-full py-20">
-      <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
+      <h2 className="max-w-7xl text-center pl-4 mx-auto text-xl md:text-5xl font-bold text-neutral-800 dark:text-neutral-200 font-sans">
         My Projects
       </h2>
       <Carousel items={cards} />
